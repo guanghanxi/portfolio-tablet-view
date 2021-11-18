@@ -98,6 +98,10 @@ header p{
   grid-column: 2 / span 2;
 }
 
+.full-text{
+  grid-column: -1 / 1
+}
+
 img{
   width: 100%;
   height: 100%;
@@ -115,328 +119,52 @@ img{
   font-size: 40px;
 }
 
-/*  css for index.html   */
-.origin-image{
+.second {
   grid-row: 2 / span 1;
 }
 
-.origin{
-  grid-column: 2 / span 2;
-  grid-row: 2 / span 1;
-}
-
-.machine-image{
+.third {
   grid-row: 3 / span 1;
 }
 
-.machine{
-  grid-column: 3 / span 2;
-  grid-row: 3 / span 1;
+.fourth {
+  grid-row: 4 / span 1;
 }
 
-.em {
-  grid-column: 2 / span 2;
+.fifth {
   grid-row: 5 / span 1;
 }
 
-.em-image{
-  grid-row: 5 / span 1;
-}
-
-.vt {
-  grid-column: 3 / span 2;
-  grid-row: 4 / span 1;
-}
-
-.vt-image {
-  grid-row: 4 / span 1;
-}
-
-.transistor-image {
+.sixth {
   grid-row: 6 / span 1;
 }
 
-.ic-hsitory {
-  grid-column: 2 / span 2;
+.seventh {
   grid-row: 7 / span 1;
 }
 
-.super {
-  grid-column: 3 / span 2;
+.eighth {
   grid-row: 8 / span 1;
 }
 
-.future {
-  grid-column: 2 / span 2;
+.ninth{
   grid-row: 9 / span 1;
 }
 
-.transistor {
-  grid-column: 3 / span 2;
-  grid-row: 6 / span 1;
-}
-
-.ichistory-image {
-  grid-row: 7 / span 1;
-}
-
-.super-image {
-  grid-row: 8 / span 1;
-}
-
-.future-image {
-  grid-row: 9 / span 1;
-}
-/*  css for mechanical.html   */
-.am-image{
-  grid-row: 3 / span 1;
-}
-
-.ce-image{
-  grid-row: 4 / span 1;
-}
-
-.pc-image{
-  grid-row: 6 / span 1;
-}
-
-.ae-image{
-  grid-row: 7 / span 1;
-}
-
-.z1-image{
-  grid-row: 8 / span 1;
-}
-
-.tdc-image{
+.tenth {
   grid-row: 10 / span 1;
 }
 
-.curta-image{
+.eleventh{
+  grid-row: 11 / span 1;
+}
+
+.twelfth{
   grid-row: 12 / span 1;
 }
 
-.tt-image{
+.thirteenth{
   grid-row: 13 / span 1;
-}
-
-
-.intro{
-  grid-column: 1 / -1;
-  grid-row: 2 / span 1;
-}
-
-.am{
-  grid-column: 2 / span 2;
-  grid-row: 3 / span 1;
-}
-
-.ce{
-  grid-column: 3 / span 2;
-  grid-row: 4 / span 1;
-}
-
-.universe{
-  grid-column: 1 / -1;
-  grid-row: 5 / span 1;
-}
-
-.pc{
-  grid-column: 2 / span 2;
-  grid-row: 6 / span 1;
-}
-
-.ae{
-  grid-column: 3 / span 2;
-  grid-row: 7 / span 1;
-}
-
-.z1{
-  grid-column: 2 / span 2;
-  grid-row: 8 / span 1;
-}
-
-.emc{
-  grid-column: 1 / -1;
-  grid-row: 9 / span 1;
-}
-
-.tdc{
-  grid-column: 2 / span 2;
-  grid-row: 10 / span 1;
-}
-
-.mmc{
-  grid-column: 1 / -1;
-  grid-row: 11 / span 1;
-}
-
-.curta{
-  grid-column: 2 / span 2;
-  grid-row: 12 / span 1;
-}
-
-.tt{
-  grid-column: 3 / span 2;
-  grid-row: 13 / span 1;
-}
-
-/*  css for future.html   */
-
-.moore-image img{
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-
-.ic-image{
-  grid-row: 2 / span 1;
-}
-
-.icsecond-image {
-  grid-row: 3 / span 1;
-}
-
-.moore-image{
-  grid-row: 5 / span 1;
-}
-
-.transistor-image{
-  grid-row: 6 / span 1;
-}
-
-.bio-image{
-  grid-row: 8 / span 1;
-}
-
-.optical-image{
-  grid-row: 9 / span 1;
-}
-
-.quantum-image{
-  grid-row: 10 / span 1;
-}
-
-.quantumsecond-image{
-  grid-row: 11 / span 1;
-}
-
-.ic {
-  grid-row: 2 / span 1;
-  grid-column: 2 / span 2; 
-}
-
-.icsecond {
-  grid-row: 3 / span 1;
-  grid-column: 3 / span 2; 
-}
-
-.moore {
-  grid-row: 4 / span 1;
-  grid-column: 1 / -1; 
-}
-
-.transistor {
-  grid-row: 6 / span 1;
-  grid-column: 2 / span 2; 
-}
-
-.new {
-  grid-row: 7 / span 1;
-  grid-column: 1 / -1; 
-}
-
-.bio {
-  grid-row: 8 / span 1;
-  grid-column: 2 / span 2; 
-}
-
-.optical {
-  grid-row: 9 / span 1;
-  grid-column: 3 / span 2; 
-}
-
-.quantum {
-  grid-row: 10 / span 1;
-  grid-column: 2 / span 2; 
-}
-
-.quantumsecond{
-  grid-row: 11 / span 1;
-  grid-column: 3 / span 2; 
-}
-
-/*  css for company.html   */
-.ibm-image{
-  grid-row: 2 / span 1;
-}
-
-.ibmsecond-image {
-  grid-row: 3 / span 1;
-}
-
-.apple-image{
-  grid-row: 4 / span 1;
-}
-
-.lenovo-image {
-  grid-row: 5 / span 1;
-}
-
-.hp-image{
-  grid-row: 6 / span 1;
-}
-
-.dell-image{
-  grid-row: 7 / span 1;
-}
-
-.microsoft-image{
-  grid-row: 8 / span 1;
-}
-
-.surface-image{
-  grid-row: 9 / span 1;
-}
-
-.ibm {
-  grid-row: 2 / span 1;
-  grid-column: 2 / span 2; 
-}
-
-.ibmsecond {
-  grid-row: 3 / span 1;
-  grid-column: 3 / span 2; 
-}
-
-.apple {
-  grid-row: 4 / span 1;
-  grid-column: 2 / span 2; 
-}
-
-.lenovo {
-  grid-row: 5 / span 1;
-  grid-column: 3 / span 2; 
-}
-
-.hp {
-  grid-row: 6 / span 1;
-  grid-column: 2 / span 2; 
-}
-
-.dell {
-  grid-row: 7 / span 1;
-  grid-column: 3 / span 2; 
-}
-
-.microsoft {
-  grid-row: 8 / span 1;
-  grid-column: 2 / span 2; 
-}
-
-.surface {
-  grid-row: 9 / span 1;
-  grid-column: 3 / span 2; 
 }
 
 .text-block{
@@ -464,6 +192,10 @@ img{
     width: auto;
   }
 
+  .right-text, .left-text {
+    grid-column: 2 / span 1;
+  }
+
   .content-image{
     grid-column: 4 / span 1;
     display: flex;
@@ -471,53 +203,8 @@ img{
     align-items: center;
   }
 
-  /*  css for index.html   */
-
-  .origin-image img{
-    height: 100%;
-    width: auto;
-  }
-
-  .origin, .machine, .em, .vt, .transistor, .ic, .super, .future {
-    grid-column: 2 / span 1;
-  }
-
-  /*  css for mechanical.html   */
-
-  .am, .ce, .pc, .ae, .z1, .tdc, .curta, .tt {
-    grid-column: 2 / span 1;
-  }
-
-  .intro, .universe, .emc, .mmc {
-    grid-column: 2/ span 3;
-  }
-
-  /*  css for future.html   */
-
-  .moore-image {
+  .full-image {
     grid-column: 2 / span 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .moore-image img{
-    height: 100%;
-    width: auto;
-  }
-
-  .ic, .icsecond, .transistor, .bio, .optical, .quantum, .quantumsecond{
-    grid-column: 2 / span 1;
-  }
-  
-  .moore {
-    grid-column: 2 / span 3;
-  }
-
-  /*  css for company.html   */
-
-  .ibm, .ibmsecond, .apple, .lenovo .hp, .dell, .microsoft, .surface{
-    grid-column: 2 / span 1;
   }
 
 }
