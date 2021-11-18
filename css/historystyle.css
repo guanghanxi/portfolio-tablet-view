@@ -1,0 +1,223 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  background-color: LightSteelBlue;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 50px;
+  line-height: 1;
+  padding: 50px 0;
+  text-align: center;
+}
+
+h2{
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  line-height: 30px;
+}
+
+nav li{
+  display: block;
+  padding-right: 20px;
+}
+
+nav{
+  background-color: LightSteelBlue;
+  padding: 25px 0;    
+  text-align: center;   
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav a.current{
+  color: darkred;
+  border: 2px double darkred;
+  font-style:italic;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 10fr 1fr 1fr;
+  grid-template-rows: repeat(9, auto);
+}
+
+header{
+  background-image: url("../images/computer.jpg");
+  background-color: darkblue;
+  background-size: cover;
+  height: 300px;
+  background-repeat: no-repeat; 
+  color: LemonChiffon;
+  height: 300px;
+  font-weight: bold;
+}
+
+header p{
+  color: Gold;
+  font-size: 24px;
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.origin-image, .machine-image, .em-image, .vt-image, .transistor-image, .ic-image, .super-image, .future-image {
+  grid-column: 1 / -1;
+  max-height: 700px;
+  overflow: hidden;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  grid-row: 1 / span 1;
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 10px;
+}
+
+.title h1{
+  font-size: 40px;
+}
+
+.origin-image{
+  grid-row: 2 / span 1;
+}
+
+.origin{
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 1;
+}
+
+.machine-image{
+  grid-row: 3 / span 1;
+}
+
+.machine{
+  grid-column: 3 / span 2;
+  grid-row: 3 / span 1;
+}
+
+.em {
+  grid-column: 2 / span 2;
+  grid-row: 5 / span 1;
+}
+
+.em-image{
+  grid-row: 5 / span 1;
+}
+
+.vt {
+  grid-column: 3 / span 2;
+  grid-row: 4 / span 1;
+}
+
+.vt-image {
+  grid-row: 4 / span 1;
+}
+
+.transistor-image {
+  grid-row: 6 / span 1;
+}
+
+.ic {
+  grid-column: 2 / span 2;
+  grid-row: 7 / span 1;
+}
+
+.super {
+  grid-column: 3 / span 2;
+  grid-row: 8 / span 1;
+}
+
+.future {
+  grid-column: 2 / span 2;
+  grid-row: 9 / span 1;
+}
+
+.transistor {
+  grid-column: 3 / span 2;
+  grid-row: 6 / span 1;
+}
+
+.ic-image {
+  grid-row: 7 / span 1;
+}
+
+.super-image {
+  grid-row: 8 / span 1;
+}
+
+.future-image {
+  grid-row: 9 / span 1;
+}
+
+.text-block{
+  background-color: rgba(255, 255, 255, .8);
+  border: 5px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  place-self: center;
+  margin: 10px 0;
+}
+
+@media screen and (min-width: 800px){
+  nav li{
+    display: inline;
+  }
+
+  .container{
+    grid-template-columns: 1fr 15fr 1fr 18fr 1fr;
+    grid-template-rows: repeat(9, 400px);
+    grid-gap: 5px;
+  }
+
+  .origin-image, .machine-image, .em-image, .vt-image, .transistor-image, .ic-image, .super-image, .future-image {
+    grid-column: 4 / span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .origin-image img{
+    height: 100%;
+    width: auto;
+  }
+
+  .origin, .machine, .em, .vt, .transistor, .ic, .super, .future {
+    grid-column: 2 / span 1;
+  }
+
+}
+
+@media screen and (prefers-reduced-motion: reduce){
+}
+
