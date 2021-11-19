@@ -9,6 +9,7 @@
     <title>Computer Development</title>
   </head>
   <body>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
       <h1>Computer</h1>
       <p>How Computers Become the Base of Modern Society</p>
@@ -22,15 +23,15 @@
             <li><a href="company.html">Computer Company</a></li>
         </ul>
       </nav>
-    <main class="container">
+    <main class="container" id="main">
 
     <div class = "title">
       <h1> Computer Develoepment </h1>
       <p> It took a long time for the computer to develop into what it is now. </p>
     </div>
 
-    <div class="second content-image">
-      <img src="images/history/huntianyic.jpg" alt=""/>
+    <div class="second left-image content-image">
+      <img src="images/history/huntianyic.jpg" alt="Chinese Huntianyi"/>
     </div>
     
     <div class="second right-text text-block">
@@ -38,8 +39,8 @@
       <p>Before the electrical age, human beings have invented computers based on mechanical devices. The earliest mechanical computer dates back to BC. However, most of early mechanical computer can only be used for specific calculation purposes, such as astronomical prediction. </p>
     </div>
 
-    <div class="third content-image">
-      <img src="images/history/mechanical.png" alt=""/>
+    <div class="third right-image content-image">
+      <img src="images/history/mechanical.png" alt="Mechanical Computer"/>
     </div>
 
     <div class="third left-text text-block">
@@ -47,8 +48,8 @@
       <p>Over time, mechanical computers which could perform vatious basic operations appeared. In fact, those mechanical computers have been still widely used after the invention of electronic computer, which was too expensive to be popular at first. </p>
     </div>
 
-    <div class="fourth content-image">
-      <img src="images/history/emcomputers.jpg" alt=""/>
+    <div class="fourth left-image content-image">
+      <img src="images/history/emcomputers.jpg" alt="Electromechanical Computer"/>
     </div>
 
     <div class="fourth right-text text-block">
@@ -56,8 +57,8 @@
       <p> In fact, electromechanical computer should be considered as mechanical compuer becuase it's just use the electric to drive machines. However, it's also considered as the beginning of digital computer.</p>
     </div>
 
-    <div class="fifth content-image">
-      <img src="images/history/vtcomputer.jpg" alt=""/>
+    <div class="fifth right-image content-image">
+      <img src="images/history/vtcomputer.jpg" alt="Vaccum Tube Computer"/>
     </div>
 
     <div class="fifth left-text text-block">
@@ -66,8 +67,8 @@
     </div>
 
     
-    <div class="sixth content-image">
-      <img src="images/history/transistor.jpg" alt=""/>
+    <div class="sixth left-image content-image">
+      <img src="images/history/transistor.jpg" alt="Transistor"/>
     </div>
     
     <div class="sixth right-text text-block">
@@ -75,8 +76,8 @@
       <p>In 1948, the Bell Labs invented the work transistor. Since transistor is far more efficient than vaccum tube, it led to the revolution in the computer field.  In 1953, the first transistor computer was created in University of Manchester. The transistor computer is the second generation of computer.</p>
     </div>
 
-    <div class="seventh  content-image">
-      <img src="images/history/ic.png" alt=""/>
+    <div class="seventh right-image content-image">
+      <img src="images/history/ic.png" alt="Integrated Circuit"/>
     </div>
     
     <div class="seventh left-text text-block">
@@ -84,8 +85,8 @@
       <p>To make the computer more efficient, engineers integrated thousands of transistors on one silicon chip. Then the IC computer become the third and the fourth generation of computer, and also the most widely used computer nowadays. </p>
     </div>
 
-    <div class="eighth content-image">
-      <img src="images/history/supercomputer.jpg" alt=""/>
+    <div class="eighth left-image content-image">
+      <img src="images/history/supercomputer.jpg" alt="Supercomputer"/>
     </div>
     
     <div class="eighth right-text text-block">
@@ -93,13 +94,39 @@
       <p>Supercomputers are computers with a high level of performance as compared to a general-purpose computer. Most of supercomputers are used for complex calculation in scientific research. For example, climate scientists can use supercomputers to make weather forecasts.</p>
     </div>
 
-    <div class="ninth content-image">
-      <img src="images/history/quantum.jpg" alt=""/>
+    <div class="ninth right-image content-image">
+      <img src="images/history/quantum.jpg" alt="Quantum Computer"/>
     </div>
     
     <div class="ninth left-text text-block">
       <h2>Future Computer</h2>
       <p>There are various predictions for the future computer. Some of those future computers has prototypes, such as DNA computer and quantum computer. Most of mordern computers are transistor computers. However, in the future, different types of computers may exist at the same time, and work in different fields.</p>
+    </div>
+
+    <div id="feedback">
+      <h2>Thank You for Your Feedback</h2>
+      <form action="https://formspree.io/f/meqvynbp"
+      method="POST">
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+    
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phonenumber" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <div><span>Format: 123-456-7890</span></div>
+    
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email address" required>
+    
+        <label for="feedback_text">Feedback</label>
+        <textarea id="feedback_text" name="feedback_text" placeholder="Any Feedback from You" required></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
     </div>
 
   </main>
