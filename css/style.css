@@ -97,18 +97,19 @@ a:hover {
 }
 
 header{
-  background-image: url("../images/computer.jpg");
-  background-color: darkblue;
+  background-image: url("../images/chip.jpg");
+  background-position:center;
+  background-color: LightSteelBlue;
   background-size: cover;
-  height: 300px;
   background-repeat: no-repeat; 
-  color: LemonChiffon;
-  height: 300px;
+  color: black;
+  text-shadow: 0 0 10px white;
+  min-height: 300px;
   font-weight: bolder;
 }
 
 header p{
-  color: Gold;
+  /*color: DarkGoldenRod;*/
   font-size: 24px;
   padding: 10px 40px;
   text-align: center;
